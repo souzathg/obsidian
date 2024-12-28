@@ -112,12 +112,12 @@ Access is controlled by using Artifact Registry Roles: Artifact Registry Reader,
 ## Site Reliability Engineering (SRE)
 - DevOps++ at Google
 - SRE teams focus on every aspect of an application: availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning
-### Key Principles:
+### Key Principles
 - Manage by Service Level Objectives (SLOs)
 - Minimize Toil (manual work that you do)
 - Move fast by reducing cost of failure
 - Share ownership with developers
-### Key Metrics:
+### Key Metrics
 - Service Level Indicator (SLI): Quantitative measure of an aspect of a service.
 	- Availability, latency, throughput, durability, correctness (error rate)
 	- Typically aggregated: "Over 1 minute"
@@ -131,7 +131,7 @@ Access is controlled by using Artifact Registry Roles: Artifact Registry Reader,
 - Error budgets: (100% SLO)
 	- How well is a team meeting their reliability objectives?
 	- Used to manage development velocity
-### Best Practices:
+### Best Practices
 #### Handling Excess Loads
 - Load Shedding
 	- API Limits
