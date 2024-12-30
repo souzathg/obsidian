@@ -48,3 +48,21 @@ How do you make programmatic calls to GCP services?
 - Google Cloud Console API Dashboard: Provides information about your API usage
   - traffic levels, error rates, and latencies
 - [API Library](https://console.cloud.google.com/apis/library)
+
+## Using Cloud Client Libraries (Cloud Storage)
+1. Setup Cloud Client Libraries for the Google Cloud Storage API
+  - Java: add to pom.xml or gradle dependencies
+    - compile 'com.google.cloud:google-cloud-storage'
+  - Node.js: npm install --save @google-cloud/storage
+  - Python: pip install --upgrade google-cloud-storage
+2. Setup Authentication
+  - Create service account with the right permissions
+  - Make your application use the Service Account
+    - If your app is running in Google Cloud: Assign the service account to your compute (App Engine, Cloud Run, Compute Engine, Cloud Functions or GKE)
+    - Or Create service-account key and make the service account key available as part of your GOOGLE_APPLICATION_CREDENTIALS
+      - `export GOOGLE_APPLICATION_CREDENTIALS="PATH_TO_SERVICE_ACCOUNT_KEY_FILE"`
+3. Write the code.
+  - API Details:
+    - [Java](https://googleapis.dev/java/google-cloud-storage/latest/index.html)
+    - [Nodejs](https://googleapis.dev/nodejs/storage/latest/Storage.html)
+    - [Python](https://googleapis.github.io/google-cloud-python/latest/storage/client.html)
