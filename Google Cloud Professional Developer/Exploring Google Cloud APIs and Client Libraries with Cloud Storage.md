@@ -66,3 +66,19 @@ How do you make programmatic calls to GCP services?
     - [Java](https://googleapis.dev/java/google-cloud-storage/latest/index.html)
     - [Nodejs](https://googleapis.dev/nodejs/storage/latest/Storage.html)
     - [Python](https://googleapis.github.io/google-cloud-python/latest/storage/client.html)
+
+## Cloud Storage - Flat namespace
+Cloud Storage uses a flat namespace. That means internally there is **NO** folder structure.
+| Key | Value |
+| -------------- | --------------- |
+| 2030/course0.png | image-binary-content |
+| 2030/10/course1.png | image-binary-content |
+| 2030/10/course2.png | image-binary-content |
+| 2030/11/course2.png | image-binary-content |
+| 2030/11/course3.png | image-binary-content |
+
+How is an empty folder represented?  
+- A zero byte object is created as a placeholder
+
+Via `gsutil`: `gsutil cp empty-file gs://your-bucket/empty-folder`
+
