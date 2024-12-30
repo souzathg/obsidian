@@ -1,3 +1,4 @@
+# IAM and Project Organization
 ## Resource Hierarchy in GCP
 In GCP, we have a well defined hierarchy:
 - Organization > Folder > Project > Resources

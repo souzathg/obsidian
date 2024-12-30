@@ -1,3 +1,4 @@
+# Creating Private Networks with Google Cloud VPC
 ## Understanding the need for a Virtual Private Cloud
 In a corporate network or an on-premises data center: Can anyone on the internet see the data exchange between the application and the database? **No**.
 Can anyone from internet directly connect to your database? Typically **no**. You need to connect to your corporate network and then access your applications or databases.
