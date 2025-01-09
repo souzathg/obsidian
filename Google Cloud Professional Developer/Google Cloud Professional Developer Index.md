@@ -1,7 +1,13 @@
 # Google Cloud Professional Developer - Index
 
-[[Authentication and Authorization with Identity Aware Proxy]]
-[[DevOps and SRE]]
-[[Cloud Build]]
-[[Creating Private Networks with Google Cloud VPC]]
-[[IAM and Project Organization]]
+[[Authentication and Authorization with Identity Aware Proxy]]  
+[[DevOps and SRE]]  
+[[Cloud Build]]  
+[[Creating Private Networks with Google Cloud VPC]]  
+[[IAM and Project Organization]]  
+[[Exploring Google Cloud APIs and Client Libraries with Cloud Storage]]  
+[[Choosing Databases in Google Cloud]]  
+[[Cloud SQL]]  
+[[Connecting to Cloud SQL instances]]  
+[[Cloud Spanner]]  
+[[Cloud Firestore]]  

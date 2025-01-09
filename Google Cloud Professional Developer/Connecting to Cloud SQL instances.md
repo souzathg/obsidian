@@ -124,6 +124,6 @@ You can connect to these resrouces using internal IP addresses:
   - Enable HA configuration for high availability
     - Primary instance and a standby instance created in the same Region (Remember - Regional)
   - Read replicas help you offload read workloads (reporting, analytics, etc)
-    - [REMEBER] Read replicas do NOT increas availability.
+    - [REMEBER] Read replicas do NOT increase availability.
   - Prefer a number of small Cloud SQL instances to having one large instance
     - Cloud SQL connot scale horizontally for writes

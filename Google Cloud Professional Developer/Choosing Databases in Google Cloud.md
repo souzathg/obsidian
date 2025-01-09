@@ -37,8 +37,8 @@ Use cases: Most traditional applications, ERP, CRM, e-commerce, banking applicat
 - PostgresSQL
 
 #### Recommended Google Managed Services
-- Cloud SQL: Supports PostgreSQL, MySQL and SQL Server for regional relational databases (up to a few TBs)
-- Cloud Spanner: Unlimited scale (multiple PBs) and 99.999% availability for global applications with horizontal scaling
+- [[Cloud SQL]]: Supports PostgreSQL, MySQL and SQL Server for regional relational databases (up to a few TBs)
+- [[Cloud Spanner]]: Unlimited scale (multiple PBs) and 99.999% availability for global applications with horizontal scaling
 
 ### Relational Databases in GCP (OLAP - Online Analytics Processing)
 Applications allowing users to analyze petabytes of data  
@@ -69,7 +69,7 @@ Horizontally scalte to petabytes of data with millions of TPS
 - Typical NoSQL databases trade-off "Strong consistency and SQL features" to achieve "scalability and high-performance"
 
 ### Google Managed Services
-- Cloud Firestore (Datastore)
+- [[Cloud Firestore]] (Datastore)
 - Cloud BigTable
 
 ### Cloud Firestore vs Cloud BigTable
