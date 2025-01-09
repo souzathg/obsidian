@@ -11,3 +11,5 @@
 [[Connecting to Cloud SQL instances]]  
 [[Cloud Spanner]]  
 [[Cloud Firestore]]  
+[[Cloud BigTable]]  
+[[Asynchronous Communication in Google Cloud - PubSub and Cloud Tasks]]  
